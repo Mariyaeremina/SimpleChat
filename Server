@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-11-30T09:00:31</date>
+  <millis>1512014431669</millis>
+  <sequence>0</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Сервер запущен</message>
+</record>
+<record>
+  <date>2017-11-30T09:00:35</date>
+  <millis>1512014435262</millis>
+  <sequence>1</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Принято подключение от /127.0.0.1:2749</message>
+</record>
+<record>
+  <date>2017-11-30T09:00:45</date>
+  <millis>1512014445208</millis>
+  <sequence>2</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Принято подключение от /127.0.0.1:2755</message>
+</record>
+<record>
+  <date>2017-11-30T09:00:48</date>
+  <millis>1512014448843</millis>
+  <sequence>3</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Принято подключение от /127.0.0.1:2761</message>
+</record>
+<record>
+  <date>2017-11-30T09:01:00</date>
+  <millis>1512014460803</millis>
+  <sequence>4</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>RemoveClient</method>
+  <thread>12</thread>
+  <message>Подключение с /127.0.0.1:2749 завершено</message>
+</record>
+<record>
+  <date>2017-11-30T09:01:02</date>
+  <millis>1512014462115</millis>
+  <sequence>5</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>RemoveClient</method>
+  <thread>13</thread>
+  <message>Подключение с /127.0.0.1:2755 завершено</message>
+</record>
+<record>
+  <date>2017-11-30T09:01:02</date>
+  <millis>1512014462917</millis>
+  <sequence>6</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>RemoveClient</method>
+  <thread>14</thread>
+  <message>Подключение с /127.0.0.1:2761 завершено</message>
+</record>

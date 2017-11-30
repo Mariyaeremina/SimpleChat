@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-11-30T09:00:07</date>
+  <millis>1512014407726</millis>
+  <sequence>0</sequence>
+  <logger>server.Server</logger>
+  <level>WARNING</level>
+  <class>server.Server</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Не удалось установить соединение с клиентом</message>
+  <exception>
+    <message>java.net.BindException: Address already in use: JVM_Bind</message>
+    <frame>
+      <class>java.net.DualStackPlainSocketImpl</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>java.net.DualStackPlainSocketImpl</class>
+      <method>socketBind</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>java.net.AbstractPlainSocketImpl</class>
+      <method>bind</method>
+      <line>387</line>
+    </frame>
+    <frame>
+      <class>java.net.PlainSocketImpl</class>
+      <method>bind</method>
+      <line>190</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>bind</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>237</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>128</line>
+    </frame>
+    <frame>
+      <class>server.Server</class>
+      <method>&lt;init&gt;</method>
+      <line>21</line>
+    </frame>
+    <frame>
+      <class>server.Main</class>
+      <method>main</method>
+      <line>7</line>
+    </frame>
+  </exception>
+</record>
+</log>
