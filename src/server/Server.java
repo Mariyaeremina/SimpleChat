@@ -21,7 +21,7 @@ public class Server
             serverSocket = new ServerSocket(PORT);
 
             logger.log(Level.INFO, "Сервер запущен");
-            while (true)
+            while (true) synchronized (clients)
             {
                 clientSocket = serverSocket.accept();
                 logger.log(Level.INFO, "Принято подключение от " + clientSocket.getRemoteSocketAddress());
@@ -68,7 +68,7 @@ public class Server
         }
     }
 
-    public void SendMessageToAllClients(String message)
+    public synchronized void SendMessageToAllClients(String message)
     {
         for (ClientHandler o : clients)
         {
